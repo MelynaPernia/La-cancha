@@ -1,0 +1,68 @@
+.container {
+  background-color: rgb(64, 191, 128);
+  height: 60vh;
+  width: 110vh;
+}
+
+.lineas {
+  border: 0.7vh solid white;
+  height: 50vh;
+  width: 100vh;
+  position: absolute;
+  left: 5vh;
+  top: 5vh;
+}
+
+.arco{
+  height: 20vh;
+  width: 10vh;
+  border: 0.7vh solid white;
+}
+
+div[arcoizquierdo] {
+  position: absolute;
+  left: -0.7vh;
+  top: 14.3vh;
+}
+
+div[arcoderecho] {
+  position: absolute;
+  left: 89.3vh;
+  top: 14.3vh;
+}
+
+.areacentral{
+  border: 0.7vh solid white;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 10.7vh;
+  position: absolute;
+  left: 39.3vh;
+  top: 14.3vh;
+}
+
+.pelota {
+  height: 2.5vh;
+  width: 2.5vh;
+  border-radius: 1.25vh;
+  background-color: rgb(242, 242, 242);
+}
+
+div[pelotauno] {
+  position: relative;
+  left: 8vh;
+  top: 15vh;
+}
+
+
+div[pelotados] {
+  position: relative;
+  left: 53vh;
+  top: 5vh;
+}
+
+div[pelotatres] {
+  position: relative;
+  left: 86.7vh;
+  top: 27vh;
+}
