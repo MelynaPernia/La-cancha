@@ -1,68 +1,78 @@
-.container {
-  background-color: rgb(64, 191, 128);
-  height: 60vh;
+.title h1{
+   margin: 0;
+   font-family: 'Indie Flower', cursive;
+   padding-left: 5vh;
+}
+
+hr {
+  margin-bottom: 5vh;
+}
+
+.stadium {
+  background-color: #8CB27C;
   width: 110vh;
+  height: 55vh;
 }
 
-.lineas {
-  border: 0.7vh solid white;
-  height: 50vh;
+.football-field {
+  background-color: #8CB27C;
   width: 100vh;
-  position: absolute;
-  left: 5vh;
-  top: 5vh;
+  height: 45vh;
+  border: 0.6vh solid white;
+  position: relative;
+  top: 4.5vh;
+  left: 4.5vh;
 }
 
-.arco{
+.yard {
+  border: 0.6vh solid white;
   height: 20vh;
   width: 10vh;
-  border: 0.7vh solid white;
-}
-
-div[arcoizquierdo] {
+  display: inline-block;
   position: absolute;
-  left: -0.7vh;
-  top: 14.3vh;
 }
 
-div[arcoderecho] {
-  position: absolute;
-  left: 89.3vh;
-  top: 14.3vh;
-}
-
-.areacentral{
-  border: 0.7vh solid white;
+.centre-cicle {
+  border: 0.6vh solid white;
   height: 20vh;
   width: 20vh;
-  border-radius: 10.7vh;
+  display: inline-block;
+  border-radius: 10.3vh;
   position: absolute;
-  left: 39.3vh;
-  top: 14.3vh;
+  left: 39.4vh;
+  top: 11.6vh;
 }
 
-.pelota {
-  height: 2.5vh;
+.yard-box-left {
+  top: 11.6vh;
+  left: -0.6vh;
+}
+
+.yard-box-right {
+  top: 11.6vh;
+  right: -0.6vh;
+}
+
+.ball {
+  background-image: url("../assets/images/ball.jpg");
   width: 2.5vh;
+  height: 2.5vh;
+  background-position: 1px 1px;
   border-radius: 1.25vh;
-  background-color: rgb(242, 242, 242);
+  position: absolute;
 }
 
-div[pelotauno] {
-  position: relative;
-  left: 8vh;
-  top: 15vh;
+.ball-1 {
+  top: 12vh;
+  left: 8.7vh;
 }
 
-
-div[pelotados] {
-  position: relative;
-  left: 53vh;
+.ball-2 {
+  left: 52vh;
   top: 5vh;
 }
 
-div[pelotatres] {
-  position: relative;
-  left: 86.7vh;
-  top: 27vh;
+.ball-3 {
+  left: 86vh;
+  top: 28vh;
 }
